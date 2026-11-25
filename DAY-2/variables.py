@@ -60,10 +60,9 @@ radius_of_circle = input("Enter radius of circle: ")
 area = 3.14 * radius_of_circle * radius_of_circle
 print(area)"""
 
-'''first_name = input("Enter first name: ")
+first_name = input("Enter first name: ")
 last_name = input("Enter last name: ")
 country = input("Enter country: ")
 age = input("Enter age: ")
 print(first_name, last_name, country, age)
 help(int)
-'''
