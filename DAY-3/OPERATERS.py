@@ -90,3 +90,23 @@ if check == 0:
   print(number, 'is even')
 else:
   print(number, 'is odd')
+
+division = 7 // 3
+print(float(division))
+
+print(type('10'))
+print(type(10))
+
+hour  = int(input())
+ratePerHour = int(input())
+pay = hour * ratePerHour
+print("your weekly earning is ", pay)
+
+years = int(input('what is your age : '))
+life_seconds = years * 365 * 24 * 60 * 60
+print('you have lived', life_seconds,'seconds')
+
+for i in range(1,6):
+  for j in range(5):
+    print(i ** j, end = " ")
+  print()
